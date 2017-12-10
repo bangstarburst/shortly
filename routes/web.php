@@ -14,6 +14,9 @@
 Route::get('','IndexController@index');
 
 
+Route::get('get_ajax','IndexController@get_ajax');
+
+
 
 
 

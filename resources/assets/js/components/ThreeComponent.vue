@@ -1,5 +1,11 @@
 <template>
     <div class="container">
-        cái số 3
+        {{this.$parent.ppp}}
     </div>
 </template>
+
+<script>
+    // export default {
+    //     props: ['hhh']
+    // }
+</script>

@@ -19,12 +19,11 @@
     <div id="one">
         <one-component></one-component>
     </div>
-    <div id="two">
-        <three-component></three-component>
-    </div>
 
 
 
+    <three></three>
+    <script src="js/libs.js"></script>
     <script src="js/app.js"></script>
 
 </body>

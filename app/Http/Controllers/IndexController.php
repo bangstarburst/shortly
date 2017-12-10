@@ -81,4 +81,9 @@ class IndexController extends Controller
     {
         //
     }
+
+    public function get_ajax()
+    {
+        return 'thằng cha mài nè';
+    }
 }

@@ -5,9 +5,6 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
-
-window.Vue = require('vue');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -16,18 +13,18 @@ window.Vue = require('vue');
  */
 
 
+//global component
 
 Vue.component('one-component', require('./components/OneComponent.vue'));
 
 
 Vue.component('two-component', require('./components/TwoComponent.vue'));
-Vue.component('three-component', require('./components/ThreeComponent.vue'));
 
 
-const one = new Vue({
+
+var one = new Vue({
     el: '#one'
 });
 
-const two = new Vue({
-    el: '#two'
-});
+
+
